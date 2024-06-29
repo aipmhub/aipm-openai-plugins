@@ -1,10 +1,10 @@
 {
-  "name": "@lobehub/lobe-openai-plugins",
+  "name": "@aipmorg/aipm-openai-plugins",
   "version": "1.0.0",
   "private": true,
-  "description": "a collection of openai plugins that chan work with LobeChat",
-  "homepage": "https://github.com/lobehub/lobe-openai-plugins",
-  "repository": "https://github.com/lobehub/lobe-openai-plugins.git",
+  "description": "a collection of openai plugins that chan work with AiPMChat",
+  "homepage": "https://github.com/aipmhub/aipm-openai-plugins",
+  "repository": "https://github.com/aipmhub/aipm-openai-plugins.git",
   "scripts": {
     "build": "bun src/index.ts",
     "ci": "npm run lint && npm run type-check",
@@ -36,8 +36,8 @@
     ]
   },
   "devDependencies": {
+    "@aipmorg/lint": "latest",
     "@commitlint/cli": "^17",
-    "@lobehub/lint": "latest",
     "@types/lodash": "^4",
     "@types/node": "^20",
     "commitlint": "^17",
