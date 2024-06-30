@@ -11,13 +11,8 @@ interface PluginItem {
 }
 const PluginList: PluginItem[] = [
   {
-    manifest: 'https://plugin.askyourpdf.com/.well-known/ai-plugin.json',
-    path: 'ask-your-pdf',
-    tags: ['pdf', 'document', 'web'],
-  },
-  {
     manifest:
-      'https://raw.githubusercontent.com/GithuBarry/chat-plugin-search-engine/main/public/manifest.json',
+      'https://raw.githubusercontent.com/aipmhub/chat-plugin-serper/main/public/manifest.json',
     path: 'serper',
     tags: ['web', 'search'],
   },
